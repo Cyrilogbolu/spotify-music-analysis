@@ -1,6 +1,6 @@
 # **Spotify Music Engagement Project**
 
-Music engagement isn't just about plays — it's about energy, mood, and true fan interaction. In this project, I explored Gorillaz' Spotify dataset, analyzing energy, emotions, and cross-platform performance to uncover deep insights that raw views alone can't show.
+Music engagement is more than just play counts — it's influenced by energy, mood, and listener behavior. This project analyzes a Spotify dataset spanning multiple albums and artists, uncovering deep insights into track dynamics and cross-platform performance that go beyond surface-level metrics.
 
 Skills and Tools:
 
