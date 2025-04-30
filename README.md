@@ -1,16 +1,22 @@
-# **Spotify Music Engagement Project**
+# **🎧Spotify Music Data Analysis with SQL**
 
-Music engagement is more than just play counts — it's influenced by energy, mood, and listener behavior. This project analyzes a Spotify dataset spanning multiple albums and artists, uncovering deep insights into track dynamics and cross-platform performance that go beyond surface-level metrics.
+This project focuses on analyzing a dataset combining Spotify and YouTube music data using SQL. The goal was to extract valuable insights on track popularity, artist performance, and user engagement across platforms.
 
-Skills and Tools:
+Using SQL, I cleaned the data and performed various analyses to explore streaming patterns, compare views and likes across official and unofficial videos, and examine how musical attributes like energy, danceability, and speechiness relate to audience engagement. I also investigated platform preferences (Spotify vs YouTube) and ranked top-performing tracks by artist.
 
-PostgreSQL (Window Functions, CTEs, Correlation Analysis)
+## **🔧 Setup Instructions**
 
-Data Cleaning and Transformation
+1. Clone this repository or download the SQL script file.
 
-Business Insight Generation
+2. Set up a PostgreSQL or compatible SQL environment.
 
-## Overview
+3. Import your dataset or use a sample dataset with columns matching the script.
+
+4. Run the SQL script in sequence to create the table, clean the data, and execute the analysis queries.
+
+**Note: Ensure your database supports functions like CORR(), DENSE_RANK(), and CTEs.**
+
+# **Overview**
 
 ```sql
 -- CREATING A TABLE
@@ -44,3 +50,16 @@ CREATE TABLE spotify_data (
 );
 ```
 
+# **Query Highlights**
+
+- Removed invalid data entries (e.g., tracks with 0 duration).
+
+- Compared track streams on Spotify vs YouTube.
+
+- Identified tracks with over 1 billion streams.
+
+- Ranked top 3 most viewed tracks for each artist using window functions.
+
+- Explored the relationship between track attributes (e.g., energy, speechiness) and engagement metrics.
+
+- Analyzed average views for singles vs albums.
